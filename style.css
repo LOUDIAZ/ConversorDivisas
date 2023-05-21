@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    padding: 40px 100px 20px 100px;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+.row {
+    padding: 20px 100px 20px 100px;
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    color: rgb(221, 240, 240);
+}
+
+.importe {
+    width: 100%;
+}
+
+.resultado {
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+    text-shadow: 0 0 3px black;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 18px;
+    padding: 20px 100px 30px 100px;
+    color: #272222;
+}
