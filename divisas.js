@@ -1,17 +1,15 @@
-var importe = document.getElementById("importe");
+let importe = document.getElementById("importe");
 importe.addEventListener("keyup", convertir);
 txtResultado = document.getElementById("resultado");
 
-var divisa1 = document.getElementById("inputdivisa1");
+let divisa1 = document.getElementById("inputdivisa1");
 divisa1.addEventListener("change", convertir);
 
-var divisa2 = document.getElementById("inputdivisa2");
-divisa2.addEventListener("change", convertir);
-var divisa2 = document.getElementById("inputdivisa2");
+let divisa2 = document.getElementById("inputdivisa2");
 divisa2.addEventListener("change", convertir);
 
-var dolar = 0.00431;;
-var euro = 0.00399;
+let dolar = 0.00431;;
+let euro = 0.00399;
 
 
 function convertir() {
